@@ -1,0 +1,328 @@
+/* Global Styles */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* Links */
+a {
+    transition: all 0.2s;
+    text-decoration: none;
+    color: #38A7D4;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #40BCE2;
+}
+
+a:active {
+    text-decoration: none;
+    color: #67CBF4;
+}
+
+/* Section Design */
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media(max-width: 767px) {
+    section {
+        height: auto;
+    }
+}
+
+@media(min-width: 768px) {
+    section {
+        min-height: calc(100vh - 50px);
+    }
+}
+
+h2 {
+    padding-bottom: 25px;
+    font-weight: 300;
+}
+
+@media(max-width: 400px) {
+    h2 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+.bg-white {
+    background: #FFFFFF;
+    color: #212121;
+}
+
+.bg-bluegrey {
+    background: #78909C;
+    color: #EFEFEF;
+}
+
+/* Header */
+header {
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(10,10,10,0.65), rgba(10,10,10,0.65));
+    text-align: center;
+}
+
+.header {
+    height: 100vh;
+}
+
+.header-officers {
+    height: 100%;
+}
+
+.main-title,
+.main-title-officers {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.main-title-officers {
+    padding: 10px 40px;
+    border: 10px double #f9f1e9;
+    text-transform: uppercase;
+    font-family: Londrina Outline, sans-serif;
+    color: #EFEFEF;
+    font-size: 4.2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+@media(max-width: 767px) {
+    .header img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* About */
+#about {
+
+}
+
+#about p {
+    font-size: 1.4em;
+}
+
+/* Officers */
+#officers {
+    padding-top: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(10,10,10,0.65), rgba(10,10,10,0.65));
+}
+
+#officers h2 {
+    color: #EFEFEF;
+}
+
+#officers h3 {
+    color: #EFEFEF;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media(min-width: 970px) {
+    #officers .col-md-4 {
+        padding: 0px 40px 5px;
+    }
+}
+
+#officers .thumbnail {
+    position: relative;
+    padding: 0px;
+    border: none;
+}
+
+#officers .caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 2%;
+    display: none;
+    text-align: left;
+    color: #EFEFEF;
+    z-index: 2;
+}
+
+#officers .caption {
+    font-weight: 300;
+}
+
+#officers .thumbnail {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    transition: all 0.2s;
+}
+
+#officers .thumbnail:hover {
+    filter: none;
+}
+
+@media (min-width: 400px) {
+    #officers .caption {
+        height: 45%;
+    }
+
+    #officers .name {
+        font-size: 14px;
+    }
+
+    #officers .description {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 450px) {
+    #officers .caption {
+        height: 35%;
+    }
+
+    #officers .description {
+        font-size: 12px;
+    }    
+}
+
+@media (min-width: 610px) {
+    #officers .caption {
+        height: 25%;
+    }
+
+    #officers .name {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    #officers .description {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #officers .description {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1550px) {
+
+}
+
+/* Gallery */
+#gallery {
+
+}
+
+/* Contact */
+#contact {
+    min-height: 0;
+    padding-bottom: 50px;
+}
+
+#contact label {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#contact h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#contact .btn {
+    border-radius: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    transition: background-color 0.2s ease;
+}
+
+#contact .btn:hover,
+#contact .btn:focus {
+    background-color: #42A5F5;
+}
+
+#contact .text-muted {
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.contact-alternate h3 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.contact-alternate a {
+    color: #212121;
+}
+
+.contact-alternate a:hover,
+.contact-alternate a:focus {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.contact-alternate a:active {
+    text-decoration: none;
+    color: #64B5F6;
+}
+
+/* Footer */
+footer {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+/* Font Awesome Icons */
+.fa-bars,
+.fa-times {
+    color: #FFFFFF;
+}
+
+.fa-instagram,
+.fa-facebook {
+    transition: all 0.2s;
+    color: #38A7D4;
+}
+
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-instagram:focus,
+.fa-facebook:focus {
+    color: #40BCE2;
+}
+
+.fa-instagram:active,
+.fa-facebook:active {
+    color: #67CBF4;
+}

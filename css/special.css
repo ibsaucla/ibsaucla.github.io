@@ -1,0 +1,137 @@
+@import url('navbar.css');
+
+html,
+body {
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+a {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #F57C00;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #FF9800;
+  text-decoration: none;
+}
+
+a:active {
+  color: #FFB300;
+  text-decoration: none;
+}
+
+#homeHeading {
+  font-size: 4em;
+}
+
+.header-content-inner p {
+  font-size: 1em;
+}
+
+
+.bg-dark {
+  background-color: #212121;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: linear-gradient(rgba(10,10,10,0.65), rgba(10,10,10,0.65));
+}
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+header .header-content .header-content-inner h2 {
+  margin-top: 1vh;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin-top: 10vh;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+}
+
+/* BUTTON STYLING */
+
+::-moz-selection {
+  color: #FFFFFF;
+  text-shadow: none;
+  background: #212121;
+}
+
+::selection {
+  color: #FFFFFF;
+  text-shadow: none;
+  background: #212121;
+}
+
+img::selection {
+  color: #FFFFFF;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #FFFFFF;
+  background: transparent;
+}
+
+body {
+  webkit-tap-highlight-color: #212121;
+}
