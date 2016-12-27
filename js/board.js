@@ -1,4 +1,4 @@
-// OFFICERS
+// board
 $(document).ready(function() {
     $('.thumbnail').hover(
         function(){
@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('.officers-popup').magnificPopup({
+    $('.board-popup').magnificPopup({
         type: 'ajax',
         alignTop: true,
         overflowY: 'scroll'

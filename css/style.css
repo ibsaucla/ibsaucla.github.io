@@ -84,12 +84,12 @@ header {
     height: 100vh;
 }
 
-.header-officers {
+.header-board {
     height: 100%;
 }
 
 .main-title,
-.main-title-officers {
+.main-title-board {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -99,7 +99,7 @@ header {
     transform: translate3d(-50%,-50%,0);
 }
 
-.main-title-officers {
+.main-title-board {
     padding: 10px 40px;
     border: 10px double #f9f1e9;
     text-transform: uppercase;
@@ -126,8 +126,8 @@ header {
     font-size: 1.4em;
 }
 
-/* Officers */
-#officers {
+/* board */
+#board {
     padding-top: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -137,29 +137,25 @@ header {
     background-image: linear-gradient(rgba(10,10,10,0.65), rgba(10,10,10,0.65));
 }
 
-#officers h2 {
-    color: #EFEFEF;
-}
-
-#officers h3 {
+#board h3 {
     color: #EFEFEF;
     text-align: center;
     font-weight: 300;
 }
 
 @media(min-width: 970px) {
-    #officers .col-md-4 {
+    #board .col-md-4 {
         padding: 0px 40px 5px;
     }
 }
 
-#officers .thumbnail {
+#board .thumbnail {
     position: relative;
     padding: 0px;
     border: none;
 }
 
-#officers .caption {
+#board .caption {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -172,63 +168,63 @@ header {
     z-index: 2;
 }
 
-#officers .caption {
+#board .caption {
     font-weight: 300;
 }
 
-#officers .thumbnail {
+#board .thumbnail {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
     filter: gray;
     -webkit-filter: grayscale(100%);
     transition: all 0.2s;
 }
 
-#officers .thumbnail:hover {
+#board .thumbnail:hover {
     filter: none;
 }
 
 @media (min-width: 400px) {
-    #officers .caption {
+    #board .caption {
         height: 45%;
     }
 
-    #officers .name {
+    #board .name {
         font-size: 14px;
     }
 
-    #officers .description {
+    #board .description {
         font-size: 10px;
     }
 }
 
 @media (min-width: 450px) {
-    #officers .caption {
+    #board .caption {
         height: 35%;
     }
 
-    #officers .description {
+    #board .description {
         font-size: 12px;
     }    
 }
 
 @media (min-width: 610px) {
-    #officers .caption {
+    #board .caption {
         height: 25%;
     }
 
-    #officers .name {
+    #board .name {
         font-size: 16px;
     }
 }
 
 @media (min-width: 768px) {
-    #officers .description {
+    #board .description {
         font-size: 10px;
     }
 }
 
 @media (min-width: 1200px) {
-    #officers .description {
+    #board .description {
         font-size: 13px;
     }
 }

@@ -1,6 +1,6 @@
 @import url("bootstrap.css");
 
-#officers-biography {
+#board-biography {
     max-width: 600px;
     margin: 50px auto;
     margin-top: none !important;
@@ -8,30 +8,30 @@
     background-color: #FFFFFF;
 }
 
-#officers-biography h1 {
+#board-biography h1 {
     text-align: center;
     padding-bottom: 10px;
 }
-#officers-biography img {
+#board-biography img {
     width: 100%;
 }
 
-#officers-biography ul {
+#board-biography ul {
     margin: 0;
     padding: 0;
 }
-#officers-biography li {
+#board-biography li {
     margin-left: none;
     list-style-type: none;
     font-size: 16px;
     padding-bottom: 10px;
 }
 
-#officers-biography .info-title {
+#board-biography .info-title {
     font-weight: bold;
 }
-#officers-biography .why-ibsa,
-#officers-biography .life-motto {
+#board-biography .why-ibsa,
+#board-biography .life-motto {
     padding-left: 25px;
     display: block;
     font-style: italic;

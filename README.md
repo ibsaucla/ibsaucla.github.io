@@ -12,7 +12,7 @@ This repository contains 5 folders:
 Main files are:
 
 * index.html which is the main page for the website
-* officers.html which is the officers page
+* board.html which is the board page
 * gallery.html which is the gallery page (coming soon)
 * register.html which is the member registration page (coming soon)
 * login.html which is the member login page (coming soon)
