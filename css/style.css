@@ -108,30 +108,38 @@ header {
     height: 100vh;
 }
 
-.header-board {
+.header-board,
+.header-gallery {
     height: 100%;
 }
 
 .main-title,
-.main-title-board {
+.main-title-board,
+.main-title-gallery,
+.btn-title-gallery {
     position: absolute;
     margin: 0;
     padding: 0;
-    top: 50%;
     left: 50%;
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
 }
 
+.main-title-gallery,
 .main-title-board {
+    top: 50%;
     padding: 10px 30px;
     border: 10px double #EFEFEF;
     text-transform: uppercase;
     font-family: 'Patua One', cursive;
     color: #EFEFEF;
-    font-size: 6em;
+    font-size: 5em;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+
+.btn-title-gallery {
+    top: 65%;
 }
 
 @media(max-width: 767px) {
@@ -321,11 +329,6 @@ footer {
 }
 
 /* Font Awesome Icons */
-.fa-bars,
-.fa-times {
-    color: #FFFFFF;
-}
-
 .fa-instagram,
 .fa-facebook {
     transition: all 0.2s;
