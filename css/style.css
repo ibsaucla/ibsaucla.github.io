@@ -186,23 +186,26 @@ header {
     font-weight: 300;
 }
 
+#contact .contact-subject,
+#contact .contact-message,
+#contact .contact-buttons {
+    padding-top: 20px;
+}
+
 #contact .btn {
     border-radius: 0px;
+    width: 100px;
     font-weight: 300;
     text-transform: uppercase;
-    background-color: rgba(0,0,0,0);
-    border-color: rgba(0,0,0,0);
+    background-color: #42A5F5;
+    border-color: transparent;
     transition: background-color 0.2s ease;
 }
 
 #contact .btn:hover,
 #contact .btn:focus {
-    background-color: #42A5F5;
-}
-
-#contact .text-muted {
-    color: #FFFFFF;
-    font-weight: 100;
+    background-color: #64B5F6;
+    border-color: transparent;
 }
 
 .contact-alternate h3 {

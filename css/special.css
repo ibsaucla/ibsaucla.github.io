@@ -12,22 +12,39 @@ body {
 }
 
 a {
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-  color: #F57C00;
-  text-decoration: none;
+    transition: all 0.2s;
 }
 
-a:hover,
-a:focus {
-  color: #FF9800;
-  text-decoration: none;
+.a-bg-dark {
+    text-decoration: none;
+    color: #EFEFEF;
 }
 
-a:active {
-  color: #FFB300;
-  text-decoration: none;
+.a-bg-dark:hover,
+.a-bg-dark:focus {
+    text-decoration: none;
+    color: #CDCDCD;
+}
+
+.a-bg-dark:active {
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+.a-bg-white {
+    text-decoration: none;
+    color: #212121;
+}
+
+.a-bg-white:hover,
+.a-bg-white:focus {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.a-bg-white:active {
+    text-decoration: none;
+    color: #64B5F6;
 }
 
 #homeHeading {
