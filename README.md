@@ -13,7 +13,7 @@ Main files are:
 
 * index.html which is the main page for the website
 * board.html which is the board page
-* gallery.html which is the gallery page (coming soon)
+* gallery.html which is the gallery page
 * register.html which is the member registration page (coming soon)
 * login.html which is the member login page (coming soon)
 * comingsoon.html which is the page used for coming soon pages (temporary)
@@ -26,6 +26,7 @@ The IBSA Website was created by and is maintained by **Frederick Kennedy**, a st
 
 * [LinkedIn](https://www.linkedin.com/in/fkennedy0110)
 * [GitHub](https://github.com/fkennedy)
+* [Instagram](https://instagram.com/fwedeorange)
 
 ## Copyright and License
 
