@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="IBSA Website">
+        <meta name="author" content="Frederick Kennedy">
+
+        <!-- Title Tag -->
+        <title>IBSA - Login</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/4fcfde129c.js"></script>
+
+        <!-- Custom Fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+
+        <!-- Plugin CSS -->
+        <link href="css/jgallery.css" rel="stylesheet">
+
+        <!-- Personal CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+    </head>
+    <body id="page-top">
+        <!-- NAVBAR -->
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">IBSA</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#announcements">Announcements</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="board.html">Board</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Members <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="comingsoon.html">Register</a></li>
+                                <li><a class="not-active" style="color: #64B5F6;">Login</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- HEADER -->
+        <header class="header-gallery" id="header">
+            <div class="content">
+                <div id="large-header" class="large-header">
+                    <h1 class="main-title-gallery">Gallery</h1>
+                    <a class="btn page-scroll btn-title-gallery a-bg-dark" href="#gallery-container"><i class="fa fa-angle-down fa-fw fa-3x"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Footer -->
+        <footer class="bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/groups/ibsaucla/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x sr-social"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/bruins.ibsa/" target="_blank"><i class="fa fa-instagram fa-fw fa-3x sr-social"></i></a>
+                            </li>
+                        </ul>
+                        <hr class="small">
+                        <p class="text-muted">
+                            Copyright &copy; IBSA 2016-2017
+                            <br>
+                            Website created by: Frederick Kennedy
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="js/easing.js"></script>
+        <script src="js/scrollreveal.js"></script>
+        <script src="js/backstretch.js"></script>
+        <script src="js/jgallery.js"></script>
+        <script src="js/touchswipe.js"></script>
+        <script src="js/tinycolor-0.9.16.min.js"></script>
+        
+        <!-- Personal JavaScript -->
+        <script src="js/scripts.js"></script>
+        <script type="text/javascript">
+            $( function() {
+                $('#gallery').jGallery( { backgroundColor: tinycolor("#212121"), textColor: tinycolor("#EFEFEF") } );
+            } );
+        </script>
+
+        <script type="text/javascript">
+            $.backstretch([
+                "img/header/1.jpg",
+                "img/header/2.jpg",
+                "img/header/3.jpg",
+                "img/header/4.jpg",
+                "img/header/5.jpg"
+            ], {duration: 3500, fade: 1500});
+        </script>
+    </body>
+</html>
